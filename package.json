@@ -1,0 +1,14 @@
+{
+  "name": "grand-budapest-theme",
+  "version": "1.0.0",
+  "description": "A dark colorful theme inspired by the film Grand Budapest Hotel by Wes Anderson",
+  "scripts": {},
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Grand Budapest",
+    "Grand Budapest Dark"
+  ],
+  "author": "Lucas Bernalte",
+  "license": "MIT"
+}

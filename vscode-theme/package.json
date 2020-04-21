@@ -1,0 +1,46 @@
+{
+  "name": "grand-budapest-theme",
+  "displayName": "Grand Budapest",
+  "description": "A colorful theme inspired by the film Grand Budapest Hotel by Wes Anderson",
+  "version": "1.0.0",
+  "publisher": "thislucas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucbpz/grand-budapest-theme"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Grand Budapest",
+    "Grand Budapest Dark"
+  ],
+  "scripts": {
+    "start": "nodemon --exec vsce package",
+    "publish": "vsce publish"
+  },
+  "galleryBanner": {
+    "color": "#2D3A52",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "grand-budapest-icon.jpg",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Grand Budapest Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/grand-budapest-dark.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12",
+    "vsce": "^1.36.2"
+  }
+}
