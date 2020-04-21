@@ -8,6 +8,10 @@
 [![Downloads](https://badges.ml/dt/grand-budapest-theme)](https://badges.ml/#grand-budapest-theme)
 
 
+<p align="center">
+  <img alt="Grand Budapest Theme screenshot" src="https://raw.githubusercontent.com/lucbpz/grand-budapest-theme/master/vscode-theme/grand-budapest-screenshot.png" width="720" />
+</p>
+
 Inspired by this [article](https://css-tricks.com/creating-a-vs-code-theme/) written by Sarah Drasner on how to create a VSCode theme and [cobalt2](https://github.com/wesbos/cobalt2) by Wes Bos.
 
 ## Platforms
