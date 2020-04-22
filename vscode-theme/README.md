@@ -4,8 +4,10 @@
 
 # Grand Budapest Theme
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://badges.ml/dt/grand-budapest-theme)](https://badges.ml/#grand-budapest-theme)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/i/thislucas.grand-budapest-theme?style=flat-square
+)](https://marketplace.visualstudio.com/items?itemName=thislucas.grand-budapest-theme)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 
 <p align="center">
