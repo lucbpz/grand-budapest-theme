@@ -336,6 +336,18 @@
       }
     },
     {
+      "name": "Storage Type Const",
+      "scope": [
+        "storage.type.js",
+        "storage.modifier.js",
+        "storage.modifier.ts",
+        "storage.modifier.tsx"
+      ],
+      "settings": {
+        "foreground": "#D8A49B"
+      }
+    },
+    {
       "name": "String",
       "scope": [
         "string",
@@ -359,7 +371,7 @@
       "name": "Support",
       "scope": "support",
       "settings": {
-        "foreground": "#6F98DE"
+        "foreground": "#C7CEF6"
       }
     },
     {
@@ -390,7 +402,7 @@
         "source.stylus entity"
       ],
       "settings": {
-        "foreground": "#7496D2"
+        "foreground": "#C7CEF6"
       }
     },
     {
@@ -404,7 +416,16 @@
       "name": "[CSS] - Element Selector",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#C7CEF6"
+        "foreground": "#D8A49B"
+      }
+    },
+    {
+      "name": "[SCSS] - selector",
+      "scope": [
+        "support.function.misc.scss"
+      ],
+      "settings": {
+        "foreground": "#D8A49B"
       }
     },
     {
@@ -704,7 +725,7 @@
       "name": "[TYPESCRIPT] - Entity Name Type",
       "scope": "source.ts entity.name.type",
       "settings": {
-        "foreground": "#6F98DE"
+        "foreground": "#6f98DE"
       }
     },
     {
@@ -781,7 +802,7 @@
       "name": "[C#] - Storage modifiers",
       "scope": "storage.modifier.cs",
       "settings": {
-        "foreground": "#6F98DE"
+        "foreground": "#6f98DE"
       }
     },
     {
@@ -813,7 +834,7 @@
       "name": "[CSHARP] - Storage types",
       "scope": "storage.type.cs",
       "settings": {
-        "foreground": "#6F98DE"
+        "foreground": "#6f98DE"
       }
     },
     {
