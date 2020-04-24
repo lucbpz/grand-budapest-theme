@@ -470,7 +470,35 @@ const theme = {
       "name": "[CSS] - Entity",
       "scope": ["source.css entity", "source.stylus entity"],
       "settings": {
+        "foreground": FG_TH1
+      }
+    },
+    {
+      "name": "[CSS] - prop name",
+      "scope": ["support.type.property-name.css"],
+      "settings": {
         "foreground": FG_TH2
+      }
+    },
+    {
+      "name": "[CSS] - prop value",
+      "scope": ["support.constant.property-value.css"],
+      "settings": {
+        "foreground": FG_TH4
+      }
+    },
+    {
+      "name": "[CSS] - units",
+      "scope": ["keyword.other.unit.rem.css", "constant.numeric.css"],
+      "settings": {
+        "foreground": FG_TH4
+      }
+    },
+    {
+      "name": "[CSS] - important",
+      "scope": ["keyword.other.important"],
+      "settings": {
+        "foreground": FG_TH6
       }
     },
     {
