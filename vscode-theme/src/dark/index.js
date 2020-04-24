@@ -7,6 +7,9 @@ const {
   FG_TH1,
   FG_TH2,
   FG_TH3,
+  FG_TH4,
+  FG_TH5,
+  FG_TH6,
 } = require('./colors');
 
 const theme = {
@@ -91,7 +94,7 @@ const theme = {
     "editorGutter.modifiedBackground": "#26506D",
     // editorGroup
     "editorGroup.background": "#A22929",
-    "editorGroup.border": "#7496D2",
+    "editorGroup.border": FG_TH5,
     "editorGroup.dropBackground": "#7496D299",
     // editorGroupHeader
     "editorGroupHeader.noTabsBackground": BG2,
@@ -251,7 +254,7 @@ const theme = {
     // --- workbench: terminal
     "terminal.ansiBlack": "#000000",
     "terminal.ansiRed": "#ff628c",
-    "terminal.ansiGreen": "#7496D2",
+    "terminal.ansiGreen": FG_TH5,
     "terminal.ansiYellow": BG3,
     "terminal.ansiBlue": INFO_BG,
     "terminal.ansiMagenta": FG_TH3,
@@ -259,7 +262,7 @@ const theme = {
     "terminal.ansiWhite": "#ffffff",
     "terminal.ansiBrightBlack": BG,
     "terminal.ansiBrightRed": "#ff628c",
-    "terminal.ansiBrightGreen": "#7496D2",
+    "terminal.ansiBrightGreen": FG_TH5,
     "terminal.ansiBrightYellow": BG3,
     "terminal.ansiBrightBlue": INFO_BG,
     "terminal.ansiBrightMagenta": FG_TH3,
@@ -272,7 +275,7 @@ const theme = {
     // Git status colors in File Explorer
     "gitDecoration.modifiedResourceForeground": BG3,
     "gitDecoration.deletedResourceForeground": "#ff628c",
-    "gitDecoration.untrackedResourceForeground": "#7496D2",
+    "gitDecoration.untrackedResourceForeground": FG_TH5,
     "gitDecoration.ignoredResourceForeground": "#808080",
     "gitDecoration.conflictingResourceForeground": "#FF7200",
     // textBlockQuote
@@ -354,6 +357,19 @@ const theme = {
         "foreground": "#fff"
       }
     },
+    { "name": "HTML tag",
+      "scope": "entity.name.tag.js",
+      "settings": {
+        "foreground": FG_TH2,
+      }
+    },
+    {
+      "name": "JSX tag",
+      "scope": "support.class.component.js",
+      "settings": {
+        "foreground": FG_TH3,
+      }
+    },
     {
       "name": "Meta Brace",
       "scope": "meta.brace",
@@ -372,14 +388,14 @@ const theme = {
       "name": "Punctuation Parameters",
       "scope": "punctuation.definition.parameters",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
       "name": "Punctuation Template Expression",
       "scope": "punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
@@ -397,6 +413,18 @@ const theme = {
       }
     },
     {
+      "name": "Storage Type Const",
+      "scope": [
+        "storage.type.js",
+        "storage.modifier.js",
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+      ],
+      "settings": {
+        "foreground": FG_TH1
+      }
+    },
+    {
       "name": "String",
       "scope": ["string", "punctuation.definition.string"],
       "settings": {
@@ -407,14 +435,14 @@ const theme = {
       "name": "String Template",
       "scope": ["string.template", "punctuation.definition.string.template"],
       "settings": {
-        "foreground": "#7496D2"
+        "foreground": FG_TH5
       }
     },
     {
       "name": "Support",
       "scope": "support",
       "settings": {
-        "foreground": "#6F98DE"
+        "foreground": FG_TH2
       }
     },
     {
@@ -442,7 +470,35 @@ const theme = {
       "name": "[CSS] - Entity",
       "scope": ["source.css entity", "source.stylus entity"],
       "settings": {
-        "foreground": "#7496D2"
+        "foreground": FG_TH1
+      }
+    },
+    {
+      "name": "[CSS] - prop name",
+      "scope": ["support.type.property-name.css"],
+      "settings": {
+        "foreground": FG_TH2
+      }
+    },
+    {
+      "name": "[CSS] - prop value",
+      "scope": ["support.constant.property-value.css"],
+      "settings": {
+        "foreground": FG_TH4
+      }
+    },
+    {
+      "name": "[CSS] - units",
+      "scope": ["keyword.other.unit.rem.css", "constant.numeric.css"],
+      "settings": {
+        "foreground": FG_TH4
+      }
+    },
+    {
+      "name": "[CSS] - important",
+      "scope": ["keyword.other.important"],
+      "settings": {
+        "foreground": FG_TH6
       }
     },
     {
@@ -456,7 +512,14 @@ const theme = {
       "name": "[CSS] - Element Selector",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": FG_TH2
+        "foreground": FG_TH1
+      }
+    },
+    {
+      "name": "[SCSS] - selector",
+      "scope": ["support.function.misc.scss"],
+      "settings": {
+        "foreground": FG_TH1
       }
     },
     {
@@ -475,7 +538,7 @@ const theme = {
         "source.stylus support.constant"
       ],
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
@@ -487,7 +550,7 @@ const theme = {
         "source.stylus punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
@@ -553,7 +616,7 @@ const theme = {
       "name": "[INI] - Punctuation Definition",
       "scope": "source.ini punctuation.definition",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
@@ -739,14 +802,14 @@ const theme = {
       "name": "[PUG] - String Interpolated",
       "scope": "text.jade string.interpolated",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
       "name": "[TYPESCRIPT] - Entity Name Type",
       "scope": "source.ts entity.name.type",
       "settings": {
-        "foreground": "#6F98DE"
+        "foreground": FG_TH4
       }
     },
     {
@@ -767,7 +830,7 @@ const theme = {
       "name": "[TYPESCRIPT] - Punctuation Arrow Parameters",
       "scope": "meta.arrow.ts punctuation.definition.parameters",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
@@ -823,7 +886,7 @@ const theme = {
       "name": "[C#] - Storage modifiers",
       "scope": "storage.modifier.cs",
       "settings": {
-        "foreground": "#6F98DE"
+        "foreground": FG_TH4
       }
     },
     {
@@ -855,7 +918,7 @@ const theme = {
       "name": "[CSHARP] - Storage types",
       "scope": "storage.type.cs",
       "settings": {
-        "foreground": "#6F98DE"
+        "foreground": FG_TH4
       }
     },
     {

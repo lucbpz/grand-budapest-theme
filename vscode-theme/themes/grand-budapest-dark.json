@@ -294,6 +294,20 @@
       }
     },
     {
+      "name": "HTML tag",
+      "scope": "entity.name.tag.js",
+      "settings": {
+        "foreground": "#C7CEF6"
+      }
+    },
+    {
+      "name": "JSX tag",
+      "scope": "support.class.component.js",
+      "settings": {
+        "foreground": "#fb94ff"
+      }
+    },
+    {
       "name": "Meta Brace",
       "scope": "meta.brace",
       "settings": {
@@ -311,14 +325,14 @@
       "name": "Punctuation Parameters",
       "scope": "punctuation.definition.parameters",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": "#DAC391"
       }
     },
     {
       "name": "Punctuation Template Expression",
       "scope": "punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": "#DAC391"
       }
     },
     {
@@ -333,6 +347,18 @@
       "scope": "storage.type.function.arrow",
       "settings": {
         "foreground": "#E6A2C5"
+      }
+    },
+    {
+      "name": "Storage Type Const",
+      "scope": [
+        "storage.type.js",
+        "storage.modifier.js",
+        "storage.modifier.ts",
+        "storage.modifier.tsx"
+      ],
+      "settings": {
+        "foreground": "#D8A49B"
       }
     },
     {
@@ -359,7 +385,7 @@
       "name": "Support",
       "scope": "support",
       "settings": {
-        "foreground": "#6F98DE"
+        "foreground": "#C7CEF6"
       }
     },
     {
@@ -390,7 +416,44 @@
         "source.stylus entity"
       ],
       "settings": {
-        "foreground": "#7496D2"
+        "foreground": "#D8A49B"
+      }
+    },
+    {
+      "name": "[CSS] - prop name",
+      "scope": [
+        "support.type.property-name.css"
+      ],
+      "settings": {
+        "foreground": "#C7CEF6"
+      }
+    },
+    {
+      "name": "[CSS] - prop value",
+      "scope": [
+        "support.constant.property-value.css"
+      ],
+      "settings": {
+        "foreground": "#6f98DE"
+      }
+    },
+    {
+      "name": "[CSS] - units",
+      "scope": [
+        "keyword.other.unit.rem.css",
+        "constant.numeric.css"
+      ],
+      "settings": {
+        "foreground": "#6f98DE"
+      }
+    },
+    {
+      "name": "[CSS] - important",
+      "scope": [
+        "keyword.other.important"
+      ],
+      "settings": {
+        "foreground": "#DAC391"
       }
     },
     {
@@ -404,7 +467,16 @@
       "name": "[CSS] - Element Selector",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#C7CEF6"
+        "foreground": "#D8A49B"
+      }
+    },
+    {
+      "name": "[SCSS] - selector",
+      "scope": [
+        "support.function.misc.scss"
+      ],
+      "settings": {
+        "foreground": "#D8A49B"
       }
     },
     {
@@ -426,7 +498,7 @@
         "source.stylus support.constant"
       ],
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": "#DAC391"
       }
     },
     {
@@ -438,7 +510,7 @@
         "source.stylus punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": "#DAC391"
       }
     },
     {
@@ -505,7 +577,7 @@
       "name": "[INI] - Punctuation Definition",
       "scope": "source.ini punctuation.definition",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": "#DAC391"
       }
     },
     {
@@ -697,14 +769,14 @@
       "name": "[PUG] - String Interpolated",
       "scope": "text.jade string.interpolated",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": "#DAC391"
       }
     },
     {
       "name": "[TYPESCRIPT] - Entity Name Type",
       "scope": "source.ts entity.name.type",
       "settings": {
-        "foreground": "#6F98DE"
+        "foreground": "#6f98DE"
       }
     },
     {
@@ -725,7 +797,7 @@
       "name": "[TYPESCRIPT] - Punctuation Arrow Parameters",
       "scope": "meta.arrow.ts punctuation.definition.parameters",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": "#DAC391"
       }
     },
     {
@@ -781,7 +853,7 @@
       "name": "[C#] - Storage modifiers",
       "scope": "storage.modifier.cs",
       "settings": {
-        "foreground": "#6F98DE"
+        "foreground": "#6f98DE"
       }
     },
     {
@@ -813,7 +885,7 @@
       "name": "[CSHARP] - Storage types",
       "scope": "storage.type.cs",
       "settings": {
-        "foreground": "#6F98DE"
+        "foreground": "#6f98DE"
       }
     },
     {

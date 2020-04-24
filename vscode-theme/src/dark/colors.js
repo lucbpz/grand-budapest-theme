@@ -7,6 +7,9 @@ const FG = "#dad0d0";
 const FG_TH1 = "#D8A49B";
 const FG_TH2 = "#C7CEF6";
 const FG_TH3 = "#fb94ff";
+const FG_TH4 = "#6f98DE";
+const FG_TH5 = "#7496D2";
+const FG_TH6 = "#DAC391"; // yellowish
 
 module.exports = {
   BG,
@@ -17,4 +20,7 @@ module.exports = {
   FG_TH1,
   FG_TH2,
   FG_TH3,
+  FG_TH4,
+  FG_TH5,
+  FG_TH6,
 };
