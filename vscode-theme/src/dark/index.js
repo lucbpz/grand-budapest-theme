@@ -9,6 +9,7 @@ const {
   FG_TH3,
   FG_TH4,
   FG_TH5,
+  FG_TH6,
 } = require('./colors');
 
 const theme = {
@@ -356,6 +357,19 @@ const theme = {
         "foreground": "#fff"
       }
     },
+    { "name": "HTML tag",
+      "scope": "entity.name.tag.js",
+      "settings": {
+        "foreground": FG_TH2,
+      }
+    },
+    {
+      "name": "JSX tag",
+      "scope": "support.class.component.js",
+      "settings": {
+        "foreground": FG_TH3,
+      }
+    },
     {
       "name": "Meta Brace",
       "scope": "meta.brace",
@@ -374,14 +388,14 @@ const theme = {
       "name": "Punctuation Parameters",
       "scope": "punctuation.definition.parameters",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
       "name": "Punctuation Template Expression",
       "scope": "punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
@@ -496,7 +510,7 @@ const theme = {
         "source.stylus support.constant"
       ],
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
@@ -508,7 +522,7 @@ const theme = {
         "source.stylus punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
@@ -574,7 +588,7 @@ const theme = {
       "name": "[INI] - Punctuation Definition",
       "scope": "source.ini punctuation.definition",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
@@ -760,7 +774,7 @@ const theme = {
       "name": "[PUG] - String Interpolated",
       "scope": "text.jade string.interpolated",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
@@ -788,7 +802,7 @@ const theme = {
       "name": "[TYPESCRIPT] - Punctuation Arrow Parameters",
       "scope": "meta.arrow.ts punctuation.definition.parameters",
       "settings": {
-        "foreground": "#ffee80"
+        "foreground": FG_TH6
       }
     },
     {
